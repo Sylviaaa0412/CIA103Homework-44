@@ -10,7 +10,7 @@ EEEEE
 FFFFFF
 *(char)65='A' 
 **/
-public class hw2_7 {
+public class Hw2_7 {
 	public static void main(String[] args) {
 		int i, j, result = 65;
 		for (i = 1; i <= 6; i++) {

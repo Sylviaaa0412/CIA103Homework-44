@@ -7,7 +7,7 @@ package hw1;
 5 + “5”
 並請用註解各別說明答案的產生原因
 */
-public class hw1_6 {
+public class Hw1_6 {
 	public static void main(String[] args) {
 		System.out.println(5 + 5);
 		// 兩個int5相加，5+5=10

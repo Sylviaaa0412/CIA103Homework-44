@@ -4,7 +4,7 @@ package hw1;
 請用程式計算10年後,本金加利息共有多少錢 (用複利計算,公式請自行google)*/
 /*【複利公式】FV ＝ PV×（1 ＋ R）n 次方
  * FV 為期末本利和，PV 為期初本金，R 為每期利率，n 為期數*/
-public class hw1_5 {
+public class Hw1_5 {
 	public static void main(String[] args) {
 		int pv = 1500000;
 		double r = 0.02;

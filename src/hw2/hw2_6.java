@@ -13,7 +13,7 @@ package hw2;
 1 2
 1
  * */
-public class hw2_6 {
+public class Hw2_6 {
 	public static void main(String[] args) {
 		int i, j;
 		for (i = 10; i >= 1; i--) {
