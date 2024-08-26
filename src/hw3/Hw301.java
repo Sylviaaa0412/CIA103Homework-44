@@ -10,8 +10,8 @@ public class Hw301 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("請輸入三個整數");
 		int[] triangle = new int[3];
-		for (int i = 0; i < triangle.length;i++) {
-				triangle[i] = sc.nextInt();
+		for (int i = 0; i < triangle.length; i++) {
+			triangle[i] = sc.nextInt();
 		}
 
 		// 2.陣列排序
@@ -24,10 +24,12 @@ public class Hw301 {
 		if ((a + b) >= c) {
 			if (a == b && a == c) {
 				System.out.println("正三角形");
-			} else if (a == b || b==c) {
+			} else if (a == b || b == c) {
 				System.out.println("等腰三角形");
 			} else if ((b == Math.sqrt(3) * a) && (c == 2 * a)) {
 				System.out.println("直角三角形");
+			} else if (a == b && c == Math.sqrt(2) * a) {
+				System.out.println("等腰直角三角形");
 			} else {
 				System.out.println("其他三角形");
 			}
