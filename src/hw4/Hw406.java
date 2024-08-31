@@ -24,7 +24,6 @@ public class Hw406 {
 					max = score[i][j];
 					index = j;
 				}
-
 			}
 			topScore[index]++;
 		}
