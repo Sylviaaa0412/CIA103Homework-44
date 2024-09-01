@@ -13,19 +13,19 @@ public class Hw505 {
 		System.out.println(autoCode.genAuthCode());
 	}
 
-	public String genAuthCode() {
+	public char[] genAuthCode() {
 
 		// 1.存入0~9、A~Z、a~z
 		String allLetter = "0123456789" + 
 							"ABCDEFGHIJKLMNOPQRSTUVWXYZ" + 
 							"abcdefghijklmnopqrstuvwxyz";
 		int index;
-		StringBuilder autoCode = new StringBuilder();
-		for (int i = 1; i <= 8; i++) {
+		char []autoCode=new char[8];
+		for (int i = 0; i <autoCode.length; i++) {
 			index = (int) (Math.random() * allLetter.length());
-			allLetter.charAt(index);
-			autoCode.append(allLetter.charAt(index));
+			autoCode[i]=allLetter.charAt(index);
+			
 		}
-		return autoCode.toString();
+		return autoCode;
 	}
 }
